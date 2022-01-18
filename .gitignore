@@ -1,0 +1,7 @@
+.vs
+.vscode
+*.ps1
+*.res
+*.code-workspace
+out
+*.exe
