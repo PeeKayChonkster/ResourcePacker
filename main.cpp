@@ -10,14 +10,14 @@ int main(int argc, char* argv[])
         case 2:
             if(!chen::Resman::packFolder(argv[1]))
             {
-                std::cerr << "Couldn't load folder.\n";
+                std::cerr << "Couldn't load input folder.\n";
                 return -1;
             }
             break;
         default:
             if(!chen::Resman::packFolder(argv[1], argv[2])) 
             {
-                std::cerr << "Couldn't load folder.\n";
+                std::cerr << "Couldn't load input or output folder.\n";
                 return -1;
             }
             break;
